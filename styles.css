@@ -154,3 +154,19 @@ body {
 .stopbutton {
   background-color: red;
 }
+
+.plus {
+  text-align: center;
+  background-color: green;
+}
+
+.minus {
+  text-align: center;
+  background-color: red;
+}
+
+.special {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr;
+}
