@@ -6,7 +6,7 @@
   <title>Barn Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-  <script src="app.js"></script>
+ 
 </head>
 <body>
   <div class="tracker">
@@ -17,34 +17,34 @@
       </div>
       <div class="jobs">
         <div class="special">
-          <button  class="minus">-</button>
-          <button>Stalls</button>
-          <button class="plus">+</button>
-          <button>0</button>
+          <button data-action="minus" class="minus">-</button>
+          <div>Stalls</div>
+          <button data-action="plus" class="plus">+</button>
+          <div class="counter">0</div>
         </div>
         <div class="special">
-            <button  class="minus">-</button>
-            <button>Shavings</button>
-            <button class="plus">+</button>
-            <button>0</button>
+            <button data-action="minus" class="minus">-</button>
+            <div>Shavings</div>
+            <button data-action="plus" class="plus">+</button>
+            <div class="counter">0</div>
          </div>
          <div class="special">
-            <button  class="minus">-</button>
-            <button>Turnout</button>
-            <button class="plus">+</button>
-            <button>0</button>
+            <button data-action="minus" class="minus">-</button>
+            <div>Turnout</div>
+            <button data-action="plus" class="plus">+</button>
+            <div class="counter">0</div>
          </div>
          <div class="special">
-            <button  class="minus">-</button>
-            <button>FeedM</button>
-            <button class="plus">+</button>
-            <button>0</button>
+            <button data-action="minus" class="minus">-</button>
+            <div>FeedM</div>
+            <button data-action="plus" class="plus">+</button>
+            <div class="counter">0</div>
          </div>
          <div class="special">
-            <button  class="minus">-</button>
-            <button>Feeds</button>
-            <button class="plus">+</button>
-            <button>0</button>
+            <button data-action="minus" class="minus">-</button>
+            <div>Feeds</div>
+            <button data-action="plus" class="plus">+</button>
+            <div class="counter">0</div>
          </div>
         
       </div>
@@ -52,5 +52,6 @@
         c
       </div>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
